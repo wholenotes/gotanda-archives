@@ -1,21 +1,34 @@
-div.pool-1 {
-    position: relative;
-    -webkit-animation: floatImage 20s infinite  normal ease-out;
-    animation: floatImage 20s infinite  normal ease-out;
+/* fishhead */
+/* div.page-1 { 
+    position: absolute;
+    top: 75%;
+    right: 38%;
+} */
+#page-1 { 
+    position: absolute;
+    width: 670px; 
+    height: 446px; 
+    /* originally 335 x 223 px */
 }
-@-webkit-keyframes floatImage {
-    0% { opacity: 0; top: 4rem; }
-    50% { opacity: 1; top: 2rem; }
-    100% { opacity: 0; top: 0; }
+/* yachiyo */
+/* div.page-2 { 
+    position: absolute;  
+    top: 100%;
+    right: 39%;
+} */
+#page-2 {
+    position: absolute;
+    width: 600px; 
 }
-@keyframes floatImage {
-    0% { opacity: 0; top: 4rem; }
-    50% { opacity: 1; top: 2rem; }
-    100% { opacity: 0; top: 0; }
-}
-img.pool-1 {
- width: 20%;
- height: 20%;
+/* pool */
+/* div.page-3 { 
+    position: absolute; 
+    top: 100%;
+    right: 39%; 
+} */
+#page-3 { 
+    position: absolute;
+    width: 700px; 
 }
 
 body {
